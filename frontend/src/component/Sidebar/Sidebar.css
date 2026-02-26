@@ -1,0 +1,160 @@
+/* ---------- CONTAINER ---------- */
+.sidebar-container {
+    width: 260px;
+    height: 100%;
+}
+
+/* ---------- SIDEBAR ---------- */
+.sidebar-holder {
+    width: 260px;
+    height: 100vh;
+    background-color: rgb(17, 35, 41);
+    padding: 1.2rem;
+    border-radius: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+/* LOGO */
+.sidebar-holder img {
+    width: 140px;
+    margin-bottom: 1.5rem;
+}
+
+/* TITLE */
+.sidebar-holder h5 {
+    font-size: 16px;
+    color: rgb(223, 193, 130);
+    padding: 1.5rem 0.3rem;
+}
+
+/* ICON ROW */
+.sidebar-icon-holder {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 0.7rem;
+    padding: 8px 10px;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    position: relative;
+}
+
+.sidebar-icon-holder:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.sidebar-icon-holder span {
+    font-size: 14px;
+    color: white;
+}
+
+/* ICONS */
+.sidebar-icon {
+    font-size: 20px;
+    color: white;
+}
+
+.side-icon {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* LINE */
+.sidebar-line {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+}
+
+/* BUTTON */
+.sidebar-btn {
+    border: 1px solid white;
+    border-radius: 22px;
+    padding: 6px 10px;
+    width: 140px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.sidebar-btn:hover {
+    border: 1px solid rgb(231, 213, 155);
+}
+
+/* LOGOUT */
+.logout {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.logout p {
+    font-size: 14px;
+    color: white;
+}
+
+/* CATEGORY */
+.catego ul,
+.select ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.catego ul li,
+.select ul li {
+    font-size: 13px;
+    padding: 8px 14px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.catego ul li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* ---------- TABLET ---------- */
+@media (max-width: 1024px) {
+
+    .sidebar-holder {
+        width: 220px;
+    }
+
+    .sidebar-container {
+        width: 220px;
+    }
+
+}
+
+/* ---------- MOBILE DRAWER ---------- */
+@media (max-width: 768px) {
+
+    .sidebar-container {
+        width: 0;
+    }
+
+    .sidebar-holder {
+        width: 260px;
+        left: -100%;
+        border-radius: 0;
+        transition: 0.3s ease;
+        z-index: 1000;
+    }
+
+    .sidebar-holder.active {
+        left: 0;
+    }
+}

@@ -1,0 +1,184 @@
+.albumshow-container {
+  width: 95%;
+  margin: 4rem auto 0;
+  padding: 0 1rem;
+}
+
+/* Top album section */
+.albumshow-cont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.line2 {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.315);
+}
+
+/* Album image */
+.albumshow-cont img {
+  width: clamp(120px, 30vw, 220px);
+  height: clamp(120px, 30vw, 220px);
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Text holder */
+.albumshow-holder {
+  flex: 1;
+  min-width: 250px;
+}
+
+.albumshow-holder h2 {
+  font-size: clamp(22px, 4vw, 36px);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.98);
+}
+
+.albumshow-holder span {
+  font-size: clamp(12px, 2.5vw, 14px);
+}
+
+/* Play section */
+.play-holder {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.play-holder p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: clamp(14px, 2.5vw, 18px);
+  margin-top: 0.5rem;
+}
+
+/* Bottom play */
+.bottom-play {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+/* Play icon */
+.playcut-icon {
+  font-size: clamp(2rem, 6vw, 3rem);
+  background-color: rgba(255, 255, 255, 0.88);
+  color: rgb(15, 37, 43);
+  border-radius: 50%;
+  padding: 6px;
+}
+
+/* Logo */
+.p-container {
+  margin-top: 0.5rem;
+}
+
+.p-container .logo-album {
+  width: clamp(120px, 30vw, 200px);
+  height: auto;
+  object-fit: cover;
+}
+
+/* Songs list */
+.songholder {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+/* Icons */
+.album-icon-holder {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.icon-show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p .album-icon {
+  font-size: clamp(18px, 4vw, 24px);
+  cursor: pointer;
+}
+
+p .material-symbols-outlined {
+  font-size: clamp(18px, 4vw, 22px);
+  cursor: pointer;
+}
+
+/* Image grid */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Related section */
+.related-holder {
+  width: 100%;
+  margin: 2rem 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.related-details {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.related-container {
+  width: 100%;
+}
+
+/* Related images */
+.image-relate {
+  width: clamp(70px, 20vw, 120px);
+  height: clamp(70px, 20vw, 120px);
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Description */
+.desc p {
+  font-size: clamp(12px, 2.5vw, 14px);
+}
+
+/* Count section */
+.count-cont {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.count-cont h5 {
+  font-size: clamp(14px, 3vw, 16px);
+}
+
+.count-cont p {
+  font-size: clamp(12px, 2.5vw, 14px);
+  color: #ffffffd8;
+  background-color: rgb(87, 86, 86);
+  padding: 2px 6px;
+  border-radius: 4px;
+}

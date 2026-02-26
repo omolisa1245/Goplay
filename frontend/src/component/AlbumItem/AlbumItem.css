@@ -1,0 +1,23 @@
+.album-content{
+    object-fit: cover;
+}
+
+.desc {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 5px;
+
+}
+
+.desc p{
+   font-size: 1vw;
+
+}
+
+
+.material-symbols-outlined{
+    font-size: 1.1vw;
+    color: white;
+    cursor: pointer;
+}
