@@ -7,7 +7,7 @@ import { useLocation } from 'react-router-dom'
 import { songData } from '../assets/data'
  
 import Navbar from '../component/Navbar/Navbar'
-import ScrollToTop from '../component/scrollToTop'
+import ScrollToTop from '../component/ScrollToTop'
 
 const DisplayRoute = () => {
 
