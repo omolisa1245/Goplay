@@ -103,6 +103,7 @@ const Navbar = () => {
                                     hover:text-orange-400
                                     transition
                                     -ml-45
+                                    hidden md:block
                                 "
                             >
                                 Login

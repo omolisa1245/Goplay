@@ -40,7 +40,7 @@ const App = () => {
                     </div>
                     <audio ref={audioRef} src={track.file} preload='auto'></audio>
                        <div className='flex w-[20%] '>
-                        <SidebarLeft className='hidden md:block'/>
+                        <SidebarLeft />
                     </div>
                 </div>
             </div>

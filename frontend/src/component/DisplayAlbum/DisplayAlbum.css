@@ -23,7 +23,6 @@
 
 /* FLEX LIST */
 .album-details {
-    width: 100%;
     display: flex;
     gap: 1rem;
     padding-bottom: 1.5rem;
