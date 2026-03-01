@@ -15,7 +15,7 @@ import Bidemi_img2 from '../assets/Bidemi_img2.jpg'
 import Bidemi1 from '../assets/Bidemi1.mp3'
 import Bidemi2 from '../assets/Bidemi2.mp3'
 import Mercy from '../assets/Mercy.mp3'
-import Sunmisola_img3 from '../assets/Sunmisola_img3.jpg'
+import sunmisola_img3 from '../assets/sunmisola_img3.jpg'
 import dunsin_img1 from '../assets/dunsin_img1.jpg'
 import Sunmisola1 from '../assets/Sunmisola1.mp3'
 import judikay6 from '../assets/judikay6.mp3'
@@ -193,7 +193,7 @@ export const songData = [
         id: 11,
         name: "Sunmisola Agbebi",
         title:'Ko Seunti',
-        image: Sunmisola_img3,
+        image: sunmisola_img3,
         file: Sunmisola1,
         duration: "4.21",
         desc: " Inspire worship and a make you close in connection with God. ",
