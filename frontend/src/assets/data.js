@@ -10,7 +10,7 @@ import guc1 from '../assets/guc1.mp3'
 /*........ single song ......*/
 
 
-import Bidemi_img1 from '../assets/Bidemi_img1.jpg'
+import bidemi_img1 from '../assets/bidemi_img1.jpg'
 import Bidemi_img2 from '../assets/Bidemi_img2.jpg'
 import Bidemi1 from '../assets/Bidemi1.mp3'
 import Bidemi2 from '../assets/Bidemi2.mp3'
@@ -181,7 +181,7 @@ export const songData = [
         title: 'Gbe Mi Fo',
         name: 'Bidemi Olaoba',
         desc: 'A message on the power of faith and divine purpose Here’s a song by the Global prolific music artist and talented singer “Bidemi Olaoba',
-        image: Bidemi_img1,
+        image: bidemi_img1,
         date: "2024",
         duration: '5:28', 
         file: Bidemi1,
