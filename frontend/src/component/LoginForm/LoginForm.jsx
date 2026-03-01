@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { RxCross2 } from "react-icons/rx"
 import { MdOutlineEmail, MdLockOutline } from "react-icons/md"
 import { IoPersonOutline } from "react-icons/io5"
-import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
 const LoginForm = ({ setShowLogin }) => {
@@ -24,26 +23,7 @@ const LoginForm = ({ setShowLogin }) => {
     const onLogin = async (event) => {
         event.preventDefault()
 
-        try {
-
-            const url =
-                currState === "signup"
-                    ? "http://localhost:5000/api/user/register"
-                    : "http://localhost:5000/api/user/login"
-
-            const response = await axios.post(url, data)
-
-            if (response.data.success) {
-                localStorage.setItem("token", response.data.token)
-                setShowLogin(false)
-                navigate('/')
-            } else {
-                alert(response.data.message)
-            }
-
-        } catch (error) {
-            console.log(error)
-        }
+      
     }
 
     return (

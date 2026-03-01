@@ -1,6 +1,6 @@
 import { createContext, useRef, useState, useEffect, useCallback } from "react";
 import { songData } from "../assets/data";
-import axios from "axios";
+
 
 
 
@@ -124,23 +124,6 @@ const PlayContextProvider = (props) => {
     const getUserData = async (userId) => {
 
 
-
-        try {
-            const response = await axios.get("http://localhost:5000/api/user/data", { userId }, { headers: { token } })
-
-            console.log(response.data);
-            if (response.data.success) {
-                setUserData(response.data.userData)
-            }
-            else {
-                alert(response.data.message)
-            }
-        } catch (error) {
-            console.log(error);
-            alert(error.message)
-
-
-        }
 
         useEffect(() => {
             const audio = audioRef.current;
