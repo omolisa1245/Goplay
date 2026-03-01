@@ -29,6 +29,6 @@ app.get("/", (req,res)=> {
     res.send("api initiating")
 })
 
-app.listen(port,()=>{
-    console.log(`server running on http://localhost:${port}`)
+app.listen(PORT,()=>{
+    console.log(`server running on http://localhost:${PORT}`)
 })
