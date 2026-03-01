@@ -7,7 +7,7 @@ import tribbet_img from '../../assets/tribbet_img.jpg'
 import judikay_img1 from '../../assets/judikay_img1.jpg'
 import marvin_img from '../../assets/marvin_img.jpg'
 import bidemi_img1 from '../../assets/bidemi_img1.jpg'
-import Sunmisola_img3 from '../../assets/Sunmisola_img3.jpg'
+import sunmisola_img3 from '../../assets/sunmisola_img3.jpg'
 import walker_img from '../../assets/walker_img.webp'
 
 import "slick-carousel/slick/slick.css"
@@ -41,7 +41,7 @@ const Display = () => {
     }
 
     const artists = [
-        Sunmisola_img3,
+        sunmisola_img3,
         nath_img2,
         walker_img,
         mercy_img1,
